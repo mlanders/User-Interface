@@ -143,23 +143,34 @@ h3{
 
 .left{
 	display: inline-block;
-	padding: 0 50px 0 0;
+	padding: 50px 0 0 0;
+	margin-right:50px;
 	height: 400px;
+	width: 379px;
+	/* border: 1px solid red; */
 }
 
 .right{
 	display: inline-block;
-	padding: 0 0 0 50px;
+	/* padding: 0 0 0 50px; */
+	float: right;
+	margin-left: 50px;
 	height: 400px;
+	width: 379px;
+	/* border: 1px solid blue; */
 }
 
 .button{
-	width: 175px;
-	height: 35px;
-	padding: 8px;
+	padding: 8px 55px;
 	border: 1px solid black;
 	text-align: center;
+	text-decoration: none;
+	color: black;
 	margin: 0 auto;
+}
+.button:hover{
+	background-color: maroon;
+	color: white;
 }
 
 .middle-img{
