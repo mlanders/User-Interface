@@ -58,7 +58,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Spicy Rice', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
@@ -74,21 +74,30 @@ p{
 .container{
 	width: 900px;
 	margin: 0 auto;
-	/* border: 1px solid red; */
+	position: relative;
 }
 header{
-	position: relative;
+	/* position: relative; */
 	margin: 10px 0 50px 0;
 	padding-top: 15px;
+	height: 50px;
+	width: 100%;
+	background-color: lightblue;
+	position: fixed;
+	z-index: 1;
 }
 header nav{
 	display: inline-block;
+	position: fixed;
+	
 }
 
 header nav a{
 	text-decoration: none;
-	color: gray;
-	margin: 0 50px 0 0;
+	color: black;
+	margin: 0 35px 0 0;
+	
+	padding:15px;
 }
 
 #section1 article{
@@ -103,6 +112,7 @@ header nav a{
 #section2 article{
 	display: inline-block;
 	width:297px;
+	border: 1px solid red;
 }
 article p{
 	padding-right: 15px;
@@ -117,8 +127,9 @@ address p{
 .logo{
 	display: inline-block;
 	position: absolute;
-	top: 5px;
-	right: 40px;
+	top: 15px;
+	right: 60px;
+	position: fixed;
 }
 
 .logo2{
@@ -151,6 +162,8 @@ h3{
 	display: inline-block;
 	padding: 0 0 0 50px;
 	height: 400px;
+	width: 300px;
+	background-image: url("great-idea-website/img/header-img.png");
 }
 
 .button{
